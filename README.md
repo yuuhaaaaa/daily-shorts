@@ -28,7 +28,7 @@
 
 ```bash
 # 1) 스킬 설치 (Claude Code)
-git clone https://github.com/<계정>/daily-shorts.git ~/.claude/skills/daily-shorts
+git clone https://github.com/yuuhaaaaa/daily-shorts.git ~/.claude/skills/daily-shorts
 
 # 2) 영상 렌더 도구
 npm install -g hyperframes        # Node.js 22.12+ 와 FFmpeg 필요
