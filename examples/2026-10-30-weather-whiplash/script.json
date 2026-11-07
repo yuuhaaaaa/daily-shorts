@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-30",
+  "slug": "weather-whiplash",
+  "topic": "10월 기온 급변",
+  "category": "weather",
+  "accent": "#FF5A1F",
+  "beats": [
+    {"lines": ["10월인데", "29.6℃"], "emphasis": "29.6℃", "duration": 3, "style": "slam"},
+    {"lines": ["서울, 10월 중순", "최고기온 경신"], "emphasis": "최고기온", "duration": 3, "style": "rise"},
+    {"lines": ["반팔 다시", "꺼냈는데"], "duration": 3, "style": "rise"},
+    {"lines": ["며칠 뒤", "4℃"], "emphasis": "4℃", "duration": 3, "style": "slam"},
+    {"lines": ["아침엔 패딩", "낮엔 반팔"], "duration": 3, "style": "split"},
+    {"lines": ["일교차", "10도 이상"], "emphasis": "10도", "duration": 3, "style": "rise"},
+    {"lines": ["옷장이", "계절을 못 따라감"], "duration": 3, "style": "rise"},
+    {"lines": ["그래서 지금은?"], "duration": 3, "style": "split"},
+    {"lines": ["얇은 옷을", "여러 겹"], "emphasis": "여러 겹", "duration": 3, "style": "rise"},
+    {"lines": ["저장해두고", "내일 아침 확인"], "emphasis": "저장", "duration": 3, "style": "slam"}
+  ],
+  "sources": [
+    {"claim": "서울 29.6℃, 기존 10월 중순 최고기온 경신", "url": "https://www.ytn.co.kr/_ln/0108_202610111604196504"},
+    {"claim": "기온 급하강, 일부 지역 아침 4℃, 내륙 일교차 10도 이상", "url": "https://www.koreaherald.com/article/10899621"}
+  ],
+  "title": "10월에 29.6℃, 며칠 뒤 4℃? #Shorts",
+  "description": "10월 중순 서울이 29.6℃로 최고기온을 경신하더니, 며칠 만에 아침 기온이 4℃까지 떨어졌습니다. 일교차 10도 넘는 날, 겹쳐 입기가 답입니다.",
+  "hashtags": ["#Shorts", "#날씨", "#일교차", "#환절기"]
+}

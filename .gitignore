@@ -1,0 +1,10 @@
+# 비밀값: 절대 커밋하지 않는다
+.secrets/
+.env
+
+# 매일 만들어지는 작업 폴더와 산출물
+episodes/
+*.mp4
+**/video/.hyperframes/
+**/video/node_modules/
+__pycache__/

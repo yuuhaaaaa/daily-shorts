@@ -1,0 +1,14 @@
+{
+  "episode": "2026-10-30-weather-whiplash",
+  "steps": {
+    "pick": {"state": "done", "attempts": 1, "note": "후보 3개 중 출처 없는 1개 제외, 10월 기온 급변 선택"},
+    "script": {"state": "done", "attempts": 1, "note": ""},
+    "check": {"state": "done", "attempts": 1, "note": "오류 0, 경고 0"},
+    "build": {"state": "done", "attempts": 3, "note": "1차 GSAP 스크립트 누락, 2차 장면 선택자 오류(글자 크기 미적용) 수정 후 hyperframes check 통과"},
+    "render": {"state": "pending", "attempts": 0, "note": "FFmpeg 설치 후 진행"},
+    "verify": {"state": "pending", "attempts": 0, "note": ""},
+    "approve": {"state": "pending", "attempts": 0, "note": ""},
+    "upload": {"state": "pending", "attempts": 0, "note": ""},
+    "record": {"state": "pending", "attempts": 0, "note": ""}
+  }
+}

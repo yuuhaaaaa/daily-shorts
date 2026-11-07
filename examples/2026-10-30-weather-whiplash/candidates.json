@@ -1,0 +1,8 @@
+[
+  {"topic": "10월 기온 급변", "slug": "weather-whiplash", "category": "weather", "trend": 0.9,
+   "angle": "10월 중순 29.6℃ → 며칠 뒤 4℃", "sources": ["https://www.ytn.co.kr/_ln/0108_202610111604196504"]},
+  {"topic": "환절기 옷 고르기", "slug": "layering-tips", "category": "life", "trend": 0.6,
+   "angle": "일교차 10도, 겹쳐 입기", "sources": ["https://www.koreaherald.com/article/10899621"]},
+  {"topic": "단풍 절정 시기", "slug": "autumn-leaves", "category": "season", "trend": 0.7,
+   "angle": "올해 단풍이 늦은 이유", "sources": []}
+]

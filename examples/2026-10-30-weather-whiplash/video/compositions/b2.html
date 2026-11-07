@@ -1,0 +1,59 @@
+<template>
+  <style>
+    /* 키네틱 타이포 공통 스타일. build_project.py가 각 장면 <template> 안에 그대로 넣는다. */
+    @font-face {
+      font-family: "KR";
+      src: local("Malgun Gothic Bold"), local("MalgunGothicBold"), local("Malgun Gothic"), local("Noto Sans KR");
+      font-weight: 700;
+    }
+    #root {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      font-family: "KR", sans-serif;
+      font-weight: 700;
+    }
+    .bg {
+      position: absolute;
+      inset: 0;
+    }
+    /* 글자는 세로 168~1330px 밴드, 오른쪽 140px은 비운다 */
+    .stack {
+      position: absolute;
+      left: 80px;
+      right: 140px;
+      top: 168px;
+      height: 1162px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 0.12em;
+    }
+    .line {
+      line-height: 1.12;
+      letter-spacing: -0.02em;
+      white-space: nowrap;
+    }
+    .t {
+      display: inline-block;
+    }
+    .em {
+      font-size: 1.6em;
+      letter-spacing: -0.04em;
+    }
+  </style>
+  <div id="root" data-composition-id="b2" data-width="1080" data-height="1920">
+    <div class="bg" style="background:#111111"></div>
+    <div class="stack" style="font-size:98px">
+    <div id="b2-l0" class="line clip" data-start="0" data-duration="3.0"><span class="t b2-t" style="color:#F2EFE9">서울, 10월 중순</span></div>
+    <div id="b2-l1" class="line clip" data-start="0" data-duration="3.0"><span class="t b2-t" style="color:#F2EFE9"><span class="em" style="color:#FF5A1F">최고기온</span> 경신</span></div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo(".b2-t", {y: 120, opacity: 0}, {y: 0, opacity: 1, duration: 0.45, ease: "power3.out", stagger: 0.15}, 0.05);
+    tl.fromTo(".b2-t", {y: 0, opacity: 1}, {y: -60, opacity: 0, duration: 0.25, ease: "power2.in", immediateRender: false}, 2.70);
+    window.__timelines["b2"] = tl;
+  </script>
+</template>
